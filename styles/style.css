@@ -1,0 +1,72 @@
+body, html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightcyan;
+}
+.delete{
+    outline: none;
+    color: black;
+    animation: smooth 1s 1 forwards;
+background-color: rgb(209, 255, 255);
+border: none;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+border-radius: 3px;
+margin-bottom: 3px;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+}
+.unchecked{
+    
+    color: white;
+    cursor: pointer;
+    animation: smooth 1s 1 forwards;
+    transition: all 1s ease-in-out;
+    border-radius:3px;
+    margin-left: 170px;
+    background-color: rgb(148, 168, 168);
+    width: 250px;
+}
+
+
+h1{
+    
+    animation: smooth 1s 1 forwards;
+    transition: all 1s ease-in-out;
+    font-weight: 200;
+}
+
+
+.main{   animation: smooth 1s 1 forwards;
+    color: white;
+    position: absolute;
+    left: 640px;
+    top: 80px;
+    background-color: rgb(192, 219, 219);
+    width: 600px;
+    height: 600px;
+    transition: all 1s ease-in-out;
+    border-radius:14px;
+    text-align:center;
+}
+
+#inp{transition: all 1s ease-in-out;
+    animation: smooth 1s 1 forwards;
+    outline: none;
+    color: black;
+    border-radius: 7px;
+    height: 30px;
+    border: none;
+    background-color: lightcyan;
+}
+
+@keyframes smooth {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
